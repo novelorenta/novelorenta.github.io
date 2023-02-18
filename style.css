@@ -1,0 +1,14 @@
+.jumbotron img {
+  width: 100px;
+  border-radius: 5px solid grey;
+}
+.jumbotron {
+  text-align: center;
+}
+.about hr {
+  width: 250px;
+  border-top: 5px solid gray;
+}
+.about {
+  text-align: center;
+}

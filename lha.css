@@ -1,0 +1,89 @@
+html {
+  position: relative;
+}
+body {
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.jumbotron {
+  background-image: url('./img/anime2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0-50px;
+  color: black;
+  overflow: hidden;
+}
+.jumbotron h1,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.jumbotron img {
+  width: 150px;
+  border: 5px solid black;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+hr {
+  width: 200px;
+  border: 2px solid #999;
+}
+section {
+  min-height: 600px;
+}
+.pkiri.pkanan {
+  opacity: 0;
+  transform: translate(-50px, 0);
+  transition: 1s;
+}
+.pkanan {
+  transform: translate(50px, 0);
+}
+.pkiri.pmuncul,
+.pkanan.pmuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.portfolio {
+  background-color: #eee;
+}
+.portfolio.thumbnail {
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: 0.5s;
+}
+.portfolio.thumbnail.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+contact {
+  min-height: 800px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #999;
+  padding-top: 20px;
+}
+footer p {
+  color: #333;
+  font-size: 0.8em;
+}
+footer p i {
+  color: black;
+}
+.container-fuild {
+  margin: 5px;
+  padding: 2px;
+}
+.navbar-header {
+  text-transform: capitalize;
+}
+.navbar-brand {
+  font-size: 28px;
+}
+.collapse {
+  text-transform: capitalize;
+  font-size: 17px;
+  margin-right: 10px;
+}

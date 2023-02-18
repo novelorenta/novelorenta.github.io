@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar-fixed">
+      <nav class="blue">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">hello world</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href=" ">About Us</a></li>
+              <li><a href=" ">Client</a></li>
+              <li><a href=" ">Service</a></li>
+              <li><a href=" ">Portfolio</a></li>
+              <li><a href=" ">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- side navbar -->
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href=" ">About Us</a></li>
+      <li><a href=" ">Client</a></li>
+      <li><a href=" ">Service</a></li>
+      <li><a href=" ">Portfolio</a></li>
+      <li><a href=" ">Contact</a></li>
+    </ul>
+    <!-- akhir side navbar -->
+    <!-- akhir navbar -->
+    <!-- slider -->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/anime-haikyu.png" />
+          <!-- random image -->
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      const sidenav = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(sidenav);
+
+      const slider = document.querySelectorAll('.slider');
+      M.Slider.init(slider);
+    </script>
+  </body>
+</html>
